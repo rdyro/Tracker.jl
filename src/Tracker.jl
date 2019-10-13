@@ -1,5 +1,8 @@
 module Tracker
 
+println("Using modified Tracker")
+const MODIFIED = 1
+
 using MacroTools
 using MacroTools: @q, @forward
 
